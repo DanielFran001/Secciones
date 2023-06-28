@@ -7,6 +7,23 @@ public class TDarrays {
                 {95, 98, 99, 100}
         };
 
+        for (int i = 0; i < grades.length; i++ ){
+
+            switch (i){
+                case 0: System.out.print("\tHarry: ");break;
+                case 1: System.out.print("\tRon: ");break;
+                case 2: System.out.print("\tHermione: ");break;
+            }
+            for (int j = 0; j < grades[i].length; j++){
+                System.out.print(grades[i][j] + " ");
+            }
+            System.out.println("\n");
+        }
+
+
+
+
+        /*
         for (int j = 0; j< grades[0].length;j++){
             System.out.print(grades[0][j] + " ");
         }
@@ -21,7 +38,7 @@ public class TDarrays {
             System.out.print(grades[2][j]+ " ");
         }
         System.out.print("\n");
-
+        */
 
         /*
         System.out.println("\tHarry: " + grades[0][0]+ " "+ grades[0][1]+ " "+ grades[0][2]+ " "+ grades[0][3]);
