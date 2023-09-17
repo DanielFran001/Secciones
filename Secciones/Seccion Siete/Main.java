@@ -1,6 +1,16 @@
 public class Main {
     public static void main(String[] args) {
         Car nissan = new Car("Nissan",10000, 2009, "Gray");
+
+        Car nissan2 = new Car(nissan);
+
+        nissan2.setColor("Yellow");
+        nissan.setColor("Orange");
+        nissan2.setColor("Blue");
+        nissan.setColor("Purple");
+        nissan2.setColor("Fuchsia");
+        nissan.setColor("Beige");
+
         Car dodge = new Car("Dodge", 86000, 2018, "Orange");
 
 
