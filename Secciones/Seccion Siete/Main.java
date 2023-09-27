@@ -1,12 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        Car nissan = new Car("Nissan",10000, 2009, "Gray", new String[]{"Tires", "Keys"});
-        Car dodge = new Car("Dodge", 86000, 2018, "Orange", new String[]{"Tires", "Keys"});
-        Car nissan2 = new Car(nissan);
-        System.out.println(nissan);
-        System.out.println(dodge);
-        System.out.println(nissan2);
+        Car[] cars = new Car[] {
+                new Car("Nissan", 5000, 2020, "red", new String[] {"tires", "keys"}),
+                new Car("Dodge", 8500, 2019, "blue", new String[] {"tires", "keys"}),
+                new Car("Nissan", 5000, 2017, "yellow", new String[] {"tires", "filter"}),
+                new Car("Honda", 7000, 2019, "orange", new String[] {"tires", "filter"}),
+                new Car("Mercedes", 12000, 2015, "jet black", new String[] {"tires", "filter", "transmission"})
+        };
+
+        Dealership dealership = new Dealership(cars);
+
 
 
 

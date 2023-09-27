@@ -7,10 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Secciones/Seccion Cuatro" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Secciones/Seccion Dos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Secciones/Seccion Seis" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Secciones/Seccion Tres" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Secciones/Seccion Siete" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Secciones/Test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Secciones/TestQuiz" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Secciones/Seccion Tres" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
